@@ -8,7 +8,7 @@ except PackageNotFoundError:
     __version__ = "unknown"
 
 from .collapsible import QCollapsible
-from .combobox import QColorComboBox, QEnumComboBox, QSearchableComboBox
+from .combobox import QColorComboBox, QEnumComboBox, QSearchableComboBox, QCheckComboBox
 from .elidable import QElidingLabel, QElidingLineEdit
 from .iconify import QIconifyIcon
 from .selection import QSearchableListWidget, QSearchableTreeWidget
@@ -47,6 +47,7 @@ __all__ = [
     "QSearchableComboBox",
     "QSearchableListWidget",
     "QSearchableTreeWidget",
+    "QCheckComboBox",
 ]
 
 if TYPE_CHECKING:
